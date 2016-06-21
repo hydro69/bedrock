@@ -11,7 +11,6 @@ $(function() {
     function sendCoreDataLayer() {
         var dataLayerCore = {
             'event': 'core-datalayer-loaded',
-            'pageId': analytics.getPageId(),
             'pageHasDownload': analytics.pageHasDownload(),
             'pageHasVideo': analytics.pageHasVideo(),
             'pageVersion': analytics.getPageVersion(),
